@@ -1,0 +1,56 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 80%;
+    margin-top: 1%;
+
+
+}
+
+.navDiv .sign-in-b{
+    background-color: rgb(39, 172, 172);
+    color: white;
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+#mainDiv{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 30px;
+    
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    bottom: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    
+}
+
+.buttons button{
+    margin: 10px;
+}
+
